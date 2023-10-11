@@ -3,8 +3,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   color: hsl(240, 100%, 27%), hsl(0, 85%, 53%), rgb(221, 60, 87);
-  background-image: url(https://cdn.sanity.io/images/fp07o18t/i18n/40e6ec0eddd987533576739808993b64096b299d-1280x720.png?auto=format);
-  background-position: center center;
+  background-image: url(https://images2.alphacoders.com/131/1318431.jpeg);
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
