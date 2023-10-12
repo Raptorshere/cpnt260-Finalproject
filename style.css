@@ -1,11 +1,11 @@
-/* main page  */
+/* Home page  */
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background: hsl(240, 100%, 27%), hsl(0, 85%, 53%), rgb(221, 60, 87);
-  background-image: url(https://images2.alphacoders.com/131/1318431.jpeg);
+  background-color:#E0C334;
+  background-image: url(https://img.freepik.com/premium-photo/empty-room-with-mirrored-wall-wood-flooring-generative-ai_97167-14580.jpg);
   background-position: top;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -14,4 +14,10 @@ h1 {
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
+}
+
+footer {
+  color:  #4B0082;
+  display: flex;
+  justify-content: baseline;
 }

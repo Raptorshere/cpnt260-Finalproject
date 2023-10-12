@@ -1,16 +1,28 @@
 /* nav for listed elements */
 
+html {
+  box-sizing: border-box;
+}
+
+
+
 .container{
-display: grid;
-grid-template-columns: 1fr;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
 }
 
 
 .nav-menu {
   list-style: none;
+
+  color: #3431A8;
+  font-weight: bold;
+  font: 2em sans-serif;
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: space-around;
+  text-align: right;
 }
 
 /* listed elements of the navigation bar  */
@@ -18,4 +30,5 @@ li{
   list-style: none;
   margin: 2rem;
   padding: 8px;
+  cursor: pointer;
 }
