@@ -5,9 +5,10 @@ html {
 }
 
 
-
+/* hovering state when cursor goes on the nav items  */
 .li:hover {
   background-color: tomato;
+
 }
 
 
@@ -21,6 +22,7 @@ html {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  transform: scale3d(1.5, 1.5, 1.5);
 }
 
 /* listed elements of the navigation  */
@@ -29,4 +31,5 @@ li{
   margin: 2rem;
   padding: 8px;
   cursor: pointer;
+  border-style: solid black;
 }
