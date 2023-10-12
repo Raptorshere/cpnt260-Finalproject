@@ -2,5 +2,20 @@
 
 .container{
 display: grid;
+grid-template-columns: 1fr;
+}
 
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* listed elements of the navigation bar  */
+li{
+  list-style: none;
+  margin: 2rem;
+  padding: 8px;
 }

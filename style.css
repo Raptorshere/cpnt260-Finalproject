@@ -1,8 +1,8 @@
-/* front page  */
+/* main page  */
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  color: hsl(240, 100%, 27%), hsl(0, 85%, 53%), rgb(221, 60, 87);
+  background: hsl(240, 100%, 27%), hsl(0, 85%, 53%), rgb(221, 60, 87);
   background-image: url(https://images2.alphacoders.com/131/1318431.jpeg);
   background-position: top;
   background-size: cover;
