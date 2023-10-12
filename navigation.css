@@ -11,6 +11,7 @@ html {
 }
 
 
+/* Navigation bar properties are below */
 .nav-menu {
   list-style: none;
 
@@ -19,10 +20,10 @@ html {
   font: 2em sans-serif;
   display: flex;
   justify-content: space-around;
-  text-align: right;
+  text-align: center;
 }
 
-/* listed elements of the navigation bar  */
+/* listed elements of the navigation  */
 li{
   list-style: none;
   margin: 2rem;
