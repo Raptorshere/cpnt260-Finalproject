@@ -27,6 +27,8 @@ html {
 
 /* listed elements of the navigation  */
 li{
+  display: flex;
+  flex-direction: row;
   list-style: none;
   margin: 2rem;
   padding: 8px;
