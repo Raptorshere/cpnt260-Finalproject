@@ -15,10 +15,15 @@ h3 {
   font-size: 14px;
 }
 
+h4 {
+  color: #4B0082;
+}
+
+
  .name {
   font-size: 30px;
  }
 
 footer {
-  font-size: 24px;
+  font-size: 1.2rem;
 }
