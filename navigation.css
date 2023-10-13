@@ -7,18 +7,21 @@ html {
 
 /* hovering state when cursor goes on the nav items  */
 .li:hover {
-  background-color: tomato;
-
+  color: tomato;
+ transition: all;
 }
 
+.container-home {
+  font-weight: bold;
+}
 
 /* Navigation bar properties are below */
-.nav-menu {
+.nav-item {
   list-style: none;
 
   color: #3431A8;
   font-weight: bold;
-  font: 2em sans-serif;
+  font: 2em sans serif;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -33,5 +36,5 @@ li{
   margin: 2rem;
   padding: 8px;
   cursor: pointer;
-  border-style: solid black;
+  
 }
