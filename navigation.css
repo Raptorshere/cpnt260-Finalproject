@@ -6,7 +6,7 @@ html {
 
 
 /* hovering state when cursor goes on the nav items  */
-.li:hover {
+nav:hover {
   color: tomato;
  transition: all;
 }
@@ -31,7 +31,11 @@ html {
 /* listed elements of the navigation  */
 li{
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Source Sans 3', sans-serif;
+  list-style: none;
+  padding-left: 0;
+  
   list-style: none;
   margin: 2rem;
   padding: 8px;
